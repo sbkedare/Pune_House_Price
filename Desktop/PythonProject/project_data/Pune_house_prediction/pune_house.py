@@ -34,7 +34,7 @@ def get_data():
 # print(op)
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',port=8080)
 
 
 # 0.0  1.0	2.0  1056.0	 39.07
